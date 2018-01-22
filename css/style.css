@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	background: #eee;
+}
+.container {
+	width: 1200px;
+}
+.nav-1 {
+	min-height: 40px;
+	margin: 0;
+	background: #1e1d24;
+	border: 0;
+	border-radius: 0;
+}
+.nav-1 .navbar-header {
+	height: 40px;
+	margin-top: -40px;
+}
+.nav-1 .navbar-header .fa {
+	color: #ee9d46;
+	font-size: 18px;
+	line-height: 40px;
+}
+.nav-1 .navbar-header a {
+	color: #7c8083;
+	text-decoration: none;
+	padding: 0px 15px 3px;
+	transition: 0.5s;
+	font-size: 12px;
+}
+.nav-1 .navbar-header a:hover {
+	color: #ee9d46;
+}
+.nav-1 .social {
+	
+}
+.social li a {
+	padding: 10px 15px;
+	font-size: 15px;
+	color: #eee !important;
+	transition: 0.3s;
+}
+.social li a:hover {
+	color: #e75b4c !important;
+}
+.nav-2 {
+	height: 110px;
+	background: #fff;
+	border: none;
+	border-radius: 0;
+	margin: 0;
+}
+.nav-2 .navbar-header {
+	margin-top: 18px;
+}
+
+.nav-2 .nav-links {
+	margin-top: 30px;
+}
+.nav-2 .nav-links li {
+	color: #606060;
+	position: relative;
+}
+.nav-2 .nav-links li a {
+	color: #606060;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+	transition: 0.3s;
+}
+.nav-2 .nav-links li a:hover {
+	color: #e75b4c;
+}
+.nav-2 .nav-links li a:focus {
+	color: #606060;
+}
+.nav-2 .nav-links li a .arr {
+	font-weight: bold;
+	margin-left: 3px;
+}
+.drop {
+	position: absolute;
+	top: 50px;
+	height: 250px;
+	border: 1px solid #555;
+	background: #fff;
+	padding: 10px;
+	display: none;
+}
+.drop .left {
+	float: left;
+	margin: 15px;
+	width: 150px;
+	height: 150px;
+	border-bottom: 1px solid #ccc;
+}
+.drop .left h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+.drop .left .drop-link {
+	margin: 15px 0;
+	text-transform: capitalize;
+	transition: 0.5s;
+}
+.drop .left .drop-link:hover:before {
+	content: "";
+	font-weight: bold;
+}
+.nav-2 .nav-links li:hover .drop {
+	display: block;
+}
+
+.active a {
+	color: #e75b4c !important;
+	background: transparent !important;
+}
+.nav-2 .btn {
+	background: #e75b4c;
+	text-transform: uppercase;
+	color: #eee;
+	border: none;
+	font-weight: 500;
+	font-size: 16px;
+	padding: 18px 43px;
+	border-radius: 30px;
+	margin: 0 0 0 20px;
+	position: relative;
+	top: -10px;
+}
+.nav-2 .btn:focus {
+	outline:none;
+}
+
+
+
+
+
+
+
+
+
+.jumbotron {
+	height: 750px;
+	background-image: linear-gradient(to left, rgba(246, 211, 101, 0.6) 0%, rgba(253, 160, 133, 0.6) 100%), 
+	url("https://ld-wp.template-help.com/wordpress_65451_v1/wp-content/uploads/2017/09/bg-1.jpg");
+	background-size: cover;
+	display: flex;
+	margin: 0;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	color: #eee;
+	text-align: center;
+}
+.jumbotron h1 {
+	font-family: 'Dancing Script', cursive;
+	letter-spacing: 5px;
+	font-size: 103px;
+	padding-bottom: 40px;
+}
+.jumbotron p {
+	letter-spacing: 4px;
+	font-size: 28px;
+	line-height: 1.3em;
+}
+.jumbotron .btn {
+	font-size: 18px;
+	padding: 15px 30px;
+	text-transform: uppercase;
+	background: #eee;
+	color: #1e1d24;
+	border: none;
+	border-radius: 30px;
+	transition: 0.5s;
+	outline: none;
+}
+ .jumbotron .btn:hover, .email a:hover {
+	background: #1e1d24;
+	color: #eee;
+	text-decoration: none;
+} 
+.jumbotron .btn:focus {
+	outline: none;
+}
+.jumbotron .btn:active {
+	box-shadow: 0px 0px 1px 1px deepskyblue;
+}
+
+
+
+
+#about {
+	height: 627px;
+	background: #fff;
+	text-align: center;
+}
+.a-content {
+	padding: 100px 0;
+}
+.a-content h1 {
+	font-size: 35px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.13em;
+	text-transform: uppercase;
+	
+
+}
+.a-content .line, .ser-content .line, .blog-content .line {
+	padding: 2px 0;
+	background: #e75b4c;
+	width: 86px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	border-radius: 10px;
+}
+.a-content p {
+	line-height: 2em;
+	font-size: 18px;
+	color: #54595f;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+}
+.a-content a {
+	font-size: 16px;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    border-radius: 100px;
+    padding: 18px 52px 18px 52px;
+    background: linear-gradient(to right, #f6d365 0%, #fda085 100%);
+    text-transform: uppercase;
+}
+ .a-content a:hover, .proj-content a:hover {
+	background: linear-gradient(to left, #f6d365 0%, #fda085 100%);
+	text-decoration: none;
+} 
+#services {
+	height: 635px;
+}
+.ser-content {
+	padding: 30px 0 0;
+}
+.ser-content h3 {
+	text-align: center;
+	font-size: 35px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.13em;
+	text-transform: uppercase;
+}
+.box {
+	width: 30%;
+	float: left;
+	margin: 10px;
+	padding-bottom: 30px;
+}
+.box .fa {
+	color: #e75b4c;
+	font-size: 32px;
+	float: left;
+	width: 45px;
+	padding-right: 25px;
+	margin-top: 9px;
+}
+.box h4 {
+	font-weight: 600;
+	font-size: 18px;
+    line-height: 1.44;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 0.1em;
+    width: 240px;
+    margin-left: 55px;
+}
+.box p {
+	font-size: 18px;
+    letter-spacing: 0.1em;
+    color: #919798;
+    line-height: 2em;
+    margin-left: 55px;
+}
+
+
+
+
+#projects {
+	background-image: url(https://ld-wp.template-help.com/wordpress_65451_v1/wp-content/uploads/2017/09/bg-2-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 510px;
+	color: #fff;
+	display: flex;
+	margin: 0;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.proj-content {
+	text-align: center;
+}
+.proj-content h2 {
+	font-family: "Dancing Script", cursive;
+	font-size: 52px;
+	padding-bottom: 30px;
+}
+.proj-content p {
+    font-size: 17px;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 300;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1.3em;
+    letter-spacing: 1.5px;
+}
+.proj-content a {
+	font-size: 16px;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #fff;
+    border-radius: 100px;
+    padding: 18px 52px 18px 52px;
+    background: linear-gradient(to right, #f6d365 0%, #fda085 100%);
+    text-transform: uppercase;
+}
+.marg {
+	margin: 25px 0;
+	padding: 2px;
+}
+
+
+
+#blog {
+	height: 930px;
+}
+.blog-content {
+	padding: 80px 0;
+}
+.blog-content h2 {
+	font-size: 35px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.13em;
+	text-transform: uppercase;
+	text-align: center;
+}
+.blog-div {
+	width: 33.33%;
+	float: left;
+}
+.blog-div h4 {
+	font-size: 24px;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 700;
+    width: 300px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 48px 0px 0px 0px;
+}
+.blog-div h4 a {
+	color: #000;
+}
+.blog-div {
+	color: #54595f;
+    font-size: 17px;
+    font-family: "Open Sans", Sans-serif;
+    line-height: 2em;
+    letter-spacing: 0.2px;
+    text-align: left;
+}
+.blog-div img {
+	width: 389px;
+	height: 293px;
+}
+
+
+
+
+
+#subscribe {
+	height: 305px;
+	background: #e75b4c;
+}
+.sub-content {
+	text-align: center;
+	padding: 80px 0;
+}
+.sub-content h2 {
+	font-size: 26px;
+    font-family: "Open Sans", Sans-serif;
+    letter-spacing: 3.1px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+.email {
+	margin-top: 40px;
+}
+.email .field{
+	width: 800px;
+	padding: 15px 50px;
+	border-radius: 30px 0 0 30px;
+	border: 1px solid #fff;
+	background: #e75b4c;
+	outline: none;
+	color: #fff;
+}
+.field::placeholder {
+	color: #fff;
+	opacity: 1;
+	font-size: 18px;
+}
+.email a {
+	line-height: 2;
+    display: inline-block;
+    max-width: 100%;
+    background: #fff;
+	color: #e75b4c;
+	padding: 12px 46px;
+	margin-left: -3px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	border-radius: 0 30px 30px 0;
+	transition: 0.3s;
+}
+
+
+
+
+#testimonials {
+	height: 840px;
+	background: url("https://ld-wp.template-help.com/wordpress_65451_v1/wp-content/uploads/2017/10/bg-55.jpg");
+}
+
+
+footer {
+	height: 410px;
+	background: #f0f4f5;
+}
+.footer-content {
+	padding: 60px 0;
+}
+.foo-box {
+	float: left;
+	width: 33.33%;
+}
+.foo-box .epilogue {
+	color: #54595f;
+	margin-top: 17px;
+    font-size: 16px;
+    line-height: 2.1em;
+    padding-right: 36px;
+    letter-spacing: 0.05em;
+}
+.foo-box h4 {
+	font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.44;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 0.02em;
+    text-align: inherit;
+    color: #1e1d24;
+    text-transform: uppercase;
+}
+.foo-box p {
+	line-height: 1.7em;
+	font-size: 17px;
+	margin-top: 30px;
+	color: #1e1d24;
+}
+.foo-box ul {
+	list-style: none;
+	padding: 0;
+	margin-top: 30px;
+}
+.foo-box li a {
+	font-size: 17px;
+	line-height: 1.8em;
+	color: #1e1d24;
+	font-family: "Open sans", Sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.05em;
+}
+.copyright {
+	height: 70px;
+	background: #111;
+}
+.copyright p {
+	line-height: 70px;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 17px;
+}
+.copyright a {
+	transition: 0.3s;
+}
+.copyright a:hover {
+	color: #fff;
+	text-decoration: none;
+}
