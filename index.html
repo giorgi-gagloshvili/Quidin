@@ -1,234 +1,361 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>Portfolio</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <link rel="icon" href="img/logo.png">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <link rel="icon" href="img/logo.png" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!-- <link rel="stylesheet" href="css/reset.css"> -->
-    <link rel="stylesheet" href="css/style.css"> </head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-    <nav class="navbar navbar-default nav-1">
-        <div class="container">
-            <div class="navbar-header email-header"> <i class="email fa fa-envelope" aria-hidden="true"></i> <a href="#">some@example.com</a> </div>
-            <ul class="nav navbar-nav navbar-right social">
-                <li>
-                    <a href="#" class="fa fa-facebook"></a>
-                </li>
-                <li>
-                    <a href="#" class="fa fa-twitter"></a>
-                </li>
-                <li>
-                    <a href="#" class="fa fa-google"></a>
-                </li>
-                <li>
-                    <a href="#" class="fa fa-linkedin"></a>
-                </li>
-                <li>
-                    <a href="#" class="fa fa-pinterest"></a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <nav class="navbar navbar-inverse nav-2">
-        <div class="container">
-            <div class="navbar-header"> <a class="navbar-brand" href="#"><img src="https://ld-wp.template-help.com/wordpress_65451_v1/wp-content/themes/quidin/assets/images/logo.png" alt="logo"></a> </div>
-            <ul class="nav navbar-nav navbar-right nav-links">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Pages<i class="fa fa-angle-down arr"></i></a>
-                   <!--  <div class="drop" style="width:600px">
-                       <div class="left">
-                           <h3>Box Model</h3> <a href="#" class="drop-link">Margin</a>
-                           <br> <a href="#" class="drop-link">Padding</a>
-                           <br> <a href="#" class="drop-link">Border</a>
-                           <br> <a href="#" class="drop-link">Content</a> </div>
-                       <div class="left">
-                           <h3>Text Format</h3>
-                           <div> <a href="#" class="drop-link">strong</a>
-                               <br> <a href="#" class="drop-link">Emphasize</a>
-                               <br> <a href="#" class="drop-link">mark</a>
-                               <br> <a href="#" class="drop-link">Italic</a> </div>
-                       </div>
-                       <div class="left">
-                           <h3>Semantic</h3>
-                           <div> <a href="#" class="drop-link">Header</a>
-                               <br/> <a href="#" class="drop-link">Section</a>
-                               <br/> <a href="#" class="drop-link">Article</a>
-                               <br/> <a href="#" class="drop-link">Footer</a> </div>
-                       </div>
-                   </div> -->
-                </li>
-                <li><a href="#">Features<i class="fa fa-angle-down arr"></i></a></li>
-                <li><a href="#">Blog<i class="fa fa-angle-down arr"></i></a></li>
-                <li>
-                    <button type="button" class="btn btn-warning">Contacts</button>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div class="jumbotron">
-        <div class="container">
-            <div class="content">
-                <h1>Equal opportunities</h1>
-                <p>WE'RE CONCERNED ABOUT THE STATE OF
-                    <br> DISCRIMINATION THIS YEAR...</p>
-                <button type="button" class="btn btn-warning">See Our Projects</button>
+  <body>
+    <header>
+      <nav class="navbar-top">
+        <div class="wrapper">
+          <div class="nav-flex">
+            <div class="navbar-email">
+              <i class="email fa fa-envelope" aria-hidden="true"></i>
+              <a href="#">some@example.com</a>
             </div>
+            <ul class="nav social-container">
+              <li>
+                <a href="#" class="fa fa-facebook"></a>
+              </li>
+              <li>
+                <a href="#" class="fa fa-twitter"></a>
+              </li>
+              <li>
+                <a href="#" class="fa fa-google"></a>
+              </li>
+              <li>
+                <a href="#" class="fa fa-linkedin"></a>
+              </li>
+              <li>
+                <a href="#" class="fa fa-pinterest"></a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+      <nav class="navbar-bottom navbar-inverse nav-2">
+        <div class="wrapper">
+          <div class="nav-flex">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#"
+                ><img
+                  src="https://ld-wp.template-help.com/wordpress_65451_v1/wp-content/themes/quidin/assets/images/logo.png"
+                  alt="logo"
+              /></a>
+            </div>
+            <ul class="nav-list">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li>
+                <a href="#">Pages<i class="fa fa-angle-down arr"></i></a>
+              </li>
+              <li>
+                <a href="#">Features<i class="fa fa-angle-down arr"></i></a>
+              </li>
+              <li>
+                <a href="#">Blog<i class="fa fa-angle-down arr"></i></a>
+              </li>
+              <li>
+                <button type="button" class="btn btn-warning">Contacts</button>
+              </li>
+            </ul>
+            <div class="burger-menu">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="hero-section">
+      <div class="content">
+        <h1>Equal opportunities</h1>
+        <p>
+          WE'RE CONCERNED ABOUT THE STATE OF <br />
+          DISCRIMINATION THIS YEAR...
+        </p>
+        <button type="button" class="btn btn-warning">See Our Projects</button>
+      </div>
     </div>
 
-    <section id="about">
-        <div class="container">
-            <div class="a-content">
-                <h1>who we are</h1>
-                <div class="line"></div>
-                <p>Founded by a band of Jickler's brother way back in 1923,<br>
-                this charity organization has initially started its worldwide crusade for justice<br> and humanitarian help as a part of the short-lived League of Nations...</p>
-                <p>When it was succeeded by the United Nations, we've carried on with our<br> work.Every year we help millions!</p>
-                <a href="#">read more</a>
-            </div>
+    <section class="about">
+      <div class="wrapper">
+        <div class="a-content">
+          <h1>who we are</h1>
+          <div class="line"></div>
+          <p>
+            Founded by a band of Jickler's brother way back in 1923,<br />
+            this charity organization has initially started its worldwide
+            crusade for justice<br />
+            and humanitarian help as a part of the short-lived League of
+            Nations...
+          </p>
+          <p>
+            When it was succeeded by the United Nations, we've carried on with
+            our<br />
+            work.Every year we help millions!
+          </p>
+          <a href="#">read more</a>
         </div>
+      </div>
     </section>
 
     <section class="images">
-        <div class="img-content">
-            <img src="img/Capture_1.JPG" alt="pic1" width="33%">
-            <img src="img/Capture_2.JPG" alt="pic2" width="33%">
-            <img src="img/Capture_3.JPG" alt="pic3" width="33%">
+      <div class="img-content">
+        <div class="image-box">
+          <img src="img/Capture_1.JPG" alt="pic1" />
         </div>
+        <div class="image-box">
+          <img src="img/Capture_2.JPG" alt="pic2" />
+        </div>
+        <div class="image-box">
+          <img src="img/Capture_3.JPG" alt="pic3" />
+        </div>
+      </div>
     </section>
 
-    <section id="services">
-        <div class="container">
-            <div class="ser-content">
-                <h3>causes we work for...</h3>
-                <div class="line"></div>
-                <div class="box">
-                    <i class="fa fa-handshake-o" aria-hidden="true"></i>
-                    <h4>Hunger Relief</h4>
-                    <p>While approximately half of the world population has it all figured out,</p>
-                </div>
-                <div class="box">
-                    <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-                    <h4>Electricity</h4>
-                    <p>When we’re assessing the energy needs of 100 countries in the world,</p>
-                </div>
-                <div class="box">
-                    <i class="fa fa-book" aria-hidden="true"></i>
-                    <h4>Human Rights</h4>
-                    <p>Fighting various types of human rights violation does include fighting things like</p>
-                </div>
-                <div class="box">
-                    <i class="fa fa-tint" aria-hidden="true"></i>
-                    <h4>Clean Water</h4>
-                    <p>Just as it goes for the food supply and distribution globally, access</p>
-                </div>
-                <div class="box">
-                    
-                    <i class="fa fa-ambulance" aria-hidden="true"></i>
-                    <h4>Fighting Diseases</h4>
-                    <p>The world healthcare overview looks better than 50 years ago, but still</p>
-                </div>
-                <div class="box">
-                    <i class="fa fa-medkit" aria-hidden="true"></i>
-                    <h4>Contraception</h4>
-                    <p>As far as the healthcare concerns for women, legal and illegal abortions</p>
-                </div>
+    <section class="services">
+      <div class="wrapper">
+        <h3>causes we work for...</h3>
+        <div class="line"></div>
+        <div class="service-content">
+          <div class="service-box">
+            <span>
+              <i class="fa fa-handshake-o" aria-hidden="true"></i>
+            </span>
+            <div class="service-text">
+              <h2>Hunger Relief</h2>
+              <p>
+                While approximately half of the world population has it all
+                figured out,
+              </p>
             </div>
+          </div>
+          <div class="service-box">
+            <span>
+              <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+            </span>
+            <div class="service-text">
+              <h2>Electricity</h2>
+              <p>
+                When we’re assessing the energy needs of 100 countries in the
+                world,
+              </p>
+            </div>
+          </div>
+          <div class="service-box">
+            <span>
+              <i class="fa fa-book" aria-hidden="true"></i>
+            </span>
+            <div class="service-text">
+              <h2>Human Rights</h2>
+              <p>
+                Fighting various types of human rights violation does include
+                fighting things like
+              </p>
+            </div>
+          </div>
+          <div class="service-box">
+            <span>
+              <i class="fa fa-tint" aria-hidden="true"></i>
+            </span>
+            <div class="service-text">
+              <h2>Clean Water</h2>
+              <p>
+                Just as it goes for the food supply and distribution globally,
+                access
+              </p>
+            </div>
+          </div>
+          <div class="service-box">
+            <span>
+              <i class="fa fa-ambulance" aria-hidden="true"></i>
+            </span>
+            <div class="service-text">
+              <h2>Fighting Diseases</h2>
+              <p>
+                The world healthcare overview looks better than 50 years ago,
+                but still
+              </p>
+            </div>
+          </div>
+          <div class="service-box">
+            <span>
+              <i class="fa fa-medkit" aria-hidden="true"></i>
+            </span>
+            <div class="service-text">
+              <h2>Contraception</h2>
+              <p>
+                As far as the healthcare concerns for women, legal and illegal
+                abortions
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="projects">
-        <div class="container">
-            <div class="proj-content">
-                <h2>EasternEuropean Projects</h2>
-                <p>With human rights violations in Russia & Belarus, human trafficking</p>
-                <p>and poverty raging on - we've just got to step in!</p>
-                <div class="marg"></div>
-                <a href="#">read more</a>
-            </div>
+      <div class="container">
+        <div class="proj-content">
+          <h2>EasternEuropean Projects</h2>
+          <p>
+            With human rights violations in Russia & Belarus, human trafficking
+          </p>
+          <p>and poverty raging on - we've just got to step in!</p>
+          <div class="marg"></div>
+          <a href="#">read more</a>
         </div>
+      </div>
     </section>
 
-    <section id="blog">
-        <div class="container">
-            <div class="blog-content">
-                <h2>recent blog entries</h2>
-                <div class="line"></div>
-                <div class="blog-div">
-                    <h4><a href="#">For Them Electricity Is A Luxury</a></h4>
-                    <p>Just as it goes with the water & food supply globally, electricity is also something that billions of…</p>
-                    <p style="padding:0 0px 16px 0px">Posted by <a href="#">admin</a> <a href="#">April 24, 2017</a></p>
-                    <img src="https://ld-wp.template-help.com/wordpress_65451_v1/wp-content/uploads/2017/04/post-660x495.jpg" alt="pic" width="389">
-                </div>
-                <div class="blog-div">
-                    <img src="https://ld-wp.template-help.com/wordpress_65451_v1/wp-content/uploads/2017/04/post1-1-660x495.jpg" alt="pic" width="389">
-                    <h4 style="padding:48px 30px 0"><a href="#">Women Rights In Saudi Arabia</a></h4>
-                    <p style="padding:0 30px">When my wife visited this country almost 40 years ago, she’s been telling me about all the human…</p>
-                    <p style="padding:0 30px 19px 20px">Posted by <a href="#">admin</a> <a href="#">April 24, 2017</a></p>
-                </div>
-                <div class="blog-div">
-                    <h4 style="padding:48px 30px 0"><a href="#">55 Million Americans Need Charity</a></h4>
-                    <p style="padding:0 30px">Yes, you’ve read it right – in the richest country on the face of Earth – the United…</p>
-                    <p style="padding:0 30px 16px">Posted by <a href="#">admin</a> <a href="#">April 24, 2017</a></p>
-                    <img src="https://ld-wp.template-help.com/wordpress_65451_v1/wp-content/uploads/2017/04/post2-2-660x495.jpg" alt="pic" width="389">
-                </div>
+    <section class="blog">
+      <div class="wrapper">
+        <div class="blog-content">
+          <h2>recent blog entries</h2>
+          <div class="line"></div>
+          <div class="blog-grid">
+            <div class="blog-div">
+              <div class="blog-text blog-order">
+                <h4><a href="#">For Them Electricity Is A Luxury</a></h4>
+                <p>
+                  Just as it goes with the water & food supply globally,
+                  electricity is also something that billions of…
+                </p>
+                <p class="author-line">
+                  Posted by <a href="#" class="author">admin</a>
+                  <a href="#" class="author">April 24, 2017</a>
+                </p>
+              </div>
+              <div class="blog-image">
+                <img
+                  src="https://ld-wp.template-help.com/wordpress_65451_v1/wp-content/uploads/2017/04/post-660x495.jpg"
+                  alt="pic"
+                />
+              </div>
             </div>
+            <div class="blog-div">
+              <img
+                src="https://ld-wp.template-help.com/wordpress_65451_v1/wp-content/uploads/2017/04/post1-1-660x495.jpg"
+                alt="pic"
+              />
+              <div class="blog-text">
+                <h4>
+                  <a href="#">Women Rights In Saudi Arabia</a>
+                </h4>
+                <p>
+                  When my wife visited this country almost 40 years ago, she’s
+                  been telling me about all the human…
+                </p>
+                <p class="author-line">
+                  Posted by <a href="#" class="author">admin</a>
+                  <a href="#" class="author">April 24, 2017</a>
+                </p>
+              </div>
+            </div>
+            <div class="blog-div">
+              <div class="blog-text blog-order">
+                <h4>
+                  <a href="#">55 Million Americans Need Charity</a>
+                </h4>
+                <p>
+                  Yes, you’ve read it right – in the richest country on the face
+                  of Earth – the United…
+                </p>
+                <p class="author-line">
+                  Posted by <a href="#" class="author">admin</a>
+                  <a href="#" class="author">April 24, 2017</a>
+                </p>
+              </div>
+
+              <div class="blog-image">
+                <img
+                  src="https://ld-wp.template-help.com/wordpress_65451_v1/wp-content/uploads/2017/04/post2-2-660x495.jpg"
+                  alt="pic"
+                />
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <section id="subscribe">
-        <div class="container">
-            <div class="sub-content">
-                <h2>sign up for the newsletter and know how you can help!</h2>
-                <div class="email">
-                    <input type="email" class="field" placeholder="E-mail">
-                    <a href="#">enroll</a>
-                </div>
-            </div>
+    <section class="subscribe">
+      <div class="wrapper">
+        <div class="sub-content">
+          <h2>sign up for the newsletter and know how you can help!</h2>
+          <div class="subscribe-form">
+            <input type="email" class="input-field" placeholder="E-mail" />
+            <button href="#">enroll</button>
+          </div>
         </div>
+      </div>
     </section>
 
-    <section id="testimonials">
-        
-    </section>
+    <section id="testimonials"></section>
 
     <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="foo-box">
-                    <a href="#"><img src="https://ld-wp.template-help.com/wordpress_65451_v1/wp-content/uploads/2017/10/logo-1.png" alt="logo"></a>
-                    <p class="epilogue">While humanity indeed made a huge breakthrough in improving all fields of our life, still even in the digital age hundreds of millions of people struggle with things as basic as freedom, food, water & healthcare.</p>
-                </div>
-                <div class="foo-box">
-                    <h4>head office</h4>
-                    <p>4096 N Highland St, Arlington <br>VA 32101, USA<br> <a href="#">quidin@demolink.org</a></p>
-                    <p>Mon-Thu: <strong>9:30 – 21:00</strong><br>Fri: <strong>6:00 – 21:00</strong><br>Sat: <strong>10:00 – 15:00</strong></p>
-                </div>
-                <div class="foo-box">
-                    <h4>Wuick Links</h4>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Contacts</a></li>
-                    </ul>
-                </div>
-            </div>
+      <div class="wrapper">
+        <div class="footer-content">
+          <div class="foo-box">
+            <a href="#"
+              ><img
+                src="https://ld-wp.template-help.com/wordpress_65451_v1/wp-content/uploads/2017/10/logo-1.png"
+                alt="logo"
+            /></a>
+            <p class="epilogue">
+              While humanity indeed made a huge breakthrough in improving all
+              fields of our life, still even in the digital age hundreds of
+              millions of people struggle with things as basic as freedom, food,
+              water & healthcare.
+            </p>
+          </div>
+          <div class="foo-box">
+            <h4>head office</h4>
+            <p>
+              4096 N Highland St, Arlington <br />VA 32101, USA<br />
+              <a href="#">quidin@demolink.org</a>
+            </p>
+            <p>
+              Mon-Thu: <strong>9:30 – 21:00</strong><br />Fri:
+              <strong>6:00 – 21:00</strong><br />Sat:
+              <strong>10:00 – 15:00</strong>
+            </p>
+          </div>
+          <div class="foo-box">
+            <h4>Wuick Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Contacts</a></li>
+            </ul>
+          </div>
         </div>
+      </div>
     </footer>
     <div class="copyright">
-        <div class="container">
-            <p>2017 © Quidin. All Rights Reserved | <a href="#">Privacy Policy</a></p>
-        </div>
+      <div class="wrapper">
+        <p>
+          2017 © Quidin. All Rights Reserved | <a href="#">Privacy Policy</a>
+        </p>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
