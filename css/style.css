@@ -616,4 +616,7 @@ footer {
 	.subscribe-form button {
 		width: 30%;
 	}
+	.copyright p {
+		font-size: 14px;
+	}
 }
