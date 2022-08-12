@@ -602,7 +602,18 @@ footer {
 		padding-bottom: 0;
 	}
 
+	.blog-text p {
+		padding-left: 0;
+	}
+
 	.sub-content h2 {
 		font-size: 21px;
+	}
+
+	.subscribe-form .input-field {
+		width: 70%;
+	}
+	.subscribe-form button {
+		width: 30%;
 	}
 }
